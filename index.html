@@ -4,16 +4,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-        <title>Hexo</title>
-        <meta name="author" content="John Doe">
-        <meta name="description" content="">
+        <title>MingYue&#39;blog</title>
+        <meta name="author" content="Ming yue">
+        <meta name="description" content="这里是明月的blog，欢迎！">
         <meta name="keywords" content="">
-        <link rel="icon" href="">
+        <link rel="icon" href="img/ndz.jpg">
         <script src="https://cdn.staticfile.org/instant.page/5.1.0/instantpage.min.js" type="module"></script>
         <script src="https://cdn.staticfile.org/font-awesome/6.1.1/js/all.min.js"></script>
         
-        <link rel="stylesheet" href="/css/fonts.min.css">
-        <link rel="stylesheet" href="/css/particlex.css">
+        <link rel="stylesheet" href="/css/test/fonts.min.css">
+        <link rel="stylesheet" href="/css/test/particlex.css">
         
         <script src="https://cdn.staticfile.org/vue/3.2.33/vue.global.prod.min.js"></script>
     <meta name="generator" content="Hexo 6.3.0"></head>
@@ -30,7 +30,7 @@
 <nav id="menu">
     <div class="desktop-menu">
         <a href="/">
-            <span class="title">Hexo</span>
+            <span class="title">MingYue'blog</span>
         </a>
         
         <a href="/">
@@ -63,7 +63,7 @@
         <div class="curtain" @click="menu_show = !menu_show" v-show="menu_show"></div>
         <div :class="'title'" @click="menu_show = !menu_show">
             <i class="fa-solid fa-bars fa-fw"></i>
-            <span>&emsp;Hexo</span>
+            <span>&emsp;MingYue'blog</span>
         </div>
         <transition name="slide">
         <div class="items" v-show="menu_show">
@@ -120,7 +120,7 @@
                     </div>
                     <div id="main">
                         <div id="home-head">
-    <div id="home-background" style="background-image: url()"></div>
+    <div id="home-background" style="background-image: url(img/gm.jpg)"></div>
     
     <div id="home-info" class="home-info" @click="home_click">
         <span class="loop"></span>
@@ -129,9 +129,9 @@
         <span class="loop"></span>
         <span class="info">
             <div class="wrap">
-                <h1>Hexo</h1>
+                <h1>MingYue&#39;blog</h1>
                 <h3></h3>
-                <h5></h5>
+                <h5>这里是明月的blog，欢迎！</h5>
             </div>
         </span>
     </div>
@@ -142,6 +142,50 @@
     <div id="home-posts">
         <div id="posts">
             
+
+<div class="post">
+    <a href="/2022/09/15/前端开发相关的单词/">
+        <h2 class="post-title">前端开发相关的单词</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="date">
+            <span class="icon">
+                <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
+            </span>
+            2022/9/15
+        </span>
+    </div>
+    <div class="excerpt">
+        <div class="content" v-pre>
+            
+            <h1 id="HTML-词汇表-word1"><a href="#HTML-词汇表-word1" class="headerlink" title="HTML 词汇表 word1"></a>HTML 词汇表 word1</h1><ul>
+<li>html<br>hyper text markup language<br>超级 文本 标记 语言</li>
+<li>href<br>html reference 关系 引用</li>
+<li>br<br>break :休息</li>
+<li>h1 h2<br>header :头 标题</li>
+<li>align<br>对齐 center:中心 left:左对齐</li>
+<li>
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        <span class="icon">
+            <svg class="fa-icon"><use xlink:href="#tags-solid"></use></svg>
+        </span>
+        
+        
+        <span class="tag">
+            
+            <a href="/tags/前端-常用单词/" style="color: #00bcd4">
+                前端 常用单词
+            </a>
+        </span>
+        
+    </div>
+    <a href="/2022/09/15/前端开发相关的单词/" class="go-post">阅读全文</a>
+</div>
 
 <div class="post">
     <a href="/2022/09/14/浏览器简单了解/">
@@ -162,28 +206,6 @@
             <h3 id="一、什么是浏览器"><a href="#一、什么是浏览器" class="headerlink" title="一、什么是浏览器"></a>一、什么是浏览器</h3><p>浏览器是指可以显示网页服务器或者文件系统的HTML文件（标准通用标记语言的一个应用）内容，并让用户与这些文件交互的一种软件。浏览器的主要功能就是向服务器发出请求，在浏览器窗口中展示您选择的网络资源。</p>
 <p>这里所说的资源一般是指 HTML 文档，也可以是 PDF、 图片或其他的类型。 资源的位置由用户使用URI（统一资源标符）指定。多年以来，各浏览器都没有完全遵从这些规范，同时还在开发自己独有的扩展程序，这给网络开发人员带来了严重的兼容性问题。 如今，大多数的浏览器都是或多或少地遵从规范。</p>
 <p>目前使用的主流浏览器有五个：Internet Explorer、 Firefox、 Safari、 Chrome 和 Opera。</p>
-<p>浏览器按照引擎分类<br>Trident引擎：Internet Explorer<br>Webkit引擎：Chrome（28版本后基于blink，blink是webkit的一个分支）和Safari<br>Gecko引擎：Firefox </p>
-<p>Presto引擎：早期Opera采用，后用Webkit引擎</p>
-<h2 id="二、浏览器的主要组件"><a href="#二、浏览器的主要组件" class="headerlink" title="二、浏览器的主要组件"></a>二、浏览器的主要组件</h2><p>1、用户界面 - 包括地址栏、 前进&#x2F;后退按钮、 书签菜单等。 除了浏览器主窗口显示的请求的页面外，其他显示的各个部分都属于用户界面。其他显示的各个部分都属于用户界面。</p>
-<p>2、浏览器引擎 - 在用户界面和呈现引擎之间传送指令。</p>
-<p>3、渲染引擎 - 负责显示请求的内容。 如果请求的内容是 HTML，它就负责解析 HTML 和 CSS 内容，并将解析后的内容显示在屏幕上。</p>
-<p>4、网络 - 用于网络调用，如 HTTP 请求。 其接口与平台无关，为所有平台提供底层实现。</p>
-<p>5、用户界面后端 - 用于绘制基本的窗口小部件，比如组合框和窗口。 其公开了与平台无关的通用接口，而在底层使用操作系统的用户界面方法。</p>
-<p>6、 JavaScript 解释器 - 用于解析和执行 JavaScript 代码。</p>
-<p>7、数据存储 - 这是持久层。 浏览器需要在硬盘上保存各种数据，例如 Cookie。 新的 HTML 规范(HTML5) 定义了“网络数据库” ，这是一个完整的浏览器内数据库。</p>
-<h3 id="三、从发送一个URL地址到返回页面-中间发生了什么"><a href="#三、从发送一个URL地址到返回页面-中间发生了什么" class="headerlink" title="三、从发送一个URL地址到返回页面,中间发生了什么?"></a>三、从发送一个URL地址到返回页面,中间发生了什么?</h3><p>从发送一个URL地址到返回页面,一般会经历以下几个过程：</p>
-<p>1、首先，在浏览器地址栏中输入URL</p>
-<p>2、浏览器先查看浏览器缓存-系统缓存-路由器缓存，如果缓存中有，会直接在屏幕中显示页面内容。若没有，则跳到第三步操作。</p>
-<p>3、在发送HTTP请求前，需要域名解析(DNS解析)，解析获取相应的IP地址。</p>
-<p>4、浏览器向服务器发起TCP连接，与浏览器建立TCP三次握手。</p>
-<p>5、握手成功后，浏览器向服务器发送HTTP请求，请求数据包。</p>
-<p>6、服务器处理收到的请求，将数据返回至浏览器</p>
-<p>7、浏览器收到HTTP响应</p>
-<p>8、读取页面内容，浏览器渲染，解析HTML源码</p>
-<p>9、生成Dom树、解析CSS样式、JS交互</p>
-<p>10、客户端和服务器交互</p>
-<p>11、Ajax查询</p>
-
             
         </div>
     </div>
@@ -203,76 +225,6 @@
         
     </div>
     <a href="/2022/09/14/浏览器简单了解/" class="go-post">阅读全文</a>
-</div>
-
-<div class="post">
-    <a href="/2022/09/14/hello-world/">
-        <h2 class="post-title">Hello World</h2>
-    </a>
-    <div class="category-and-date">
-        
-        <span class="date">
-            <span class="icon">
-                <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
-            </span>
-            2022/9/14
-        </span>
-    </div>
-    <div class="excerpt">
-        <div class="content" v-pre>
-            
-            <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-            
-        </div>
-    </div>
-    <div class="post-tags">
-        
-        
-    </div>
-    <a href="/2022/09/14/hello-world/" class="go-post">阅读全文</a>
-</div>
-
-<div class="post">
-    <a href="/2022/09/14/测试文章9-14/">
-        <h2 class="post-title">测试文章9.14</h2>
-    </a>
-    <div class="category-and-date">
-        
-        <span class="date">
-            <span class="icon">
-                <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
-            </span>
-            2022/9/14
-        </span>
-    </div>
-    <div class="excerpt">
-        <div class="content" v-pre>
-            
-            <h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><h1 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h1><script>
-    let a = '9.14';
-    console.log(a);
-</script>
-            
-        </div>
-    </div>
-    <div class="post-tags">
-        
-        
-    </div>
-    <a href="/2022/09/14/测试文章9-14/" class="go-post">阅读全文</a>
 </div>
 
              
@@ -298,19 +250,41 @@
         <div id="card-div">
     <div class="card-style" style="width: 300px">
         <div class="avatar">
-            <img src=" " alt="avatar">
+            <img src="img/ndz.jpg " alt="avatar">
         </div>
         <div class="name">
-            John Doe
+            Ming yue
         </div>
         <div class="descriptions">
             
             <div class="description">
-                Description...
+                梧高风必至
+            </div>
+            
+            <div class="description">
+                花香蝶自来
             </div>
             
         </div>
         <div class="icon-links">
+            
+            <span class="icon-link">
+                <a target="_blank" rel="noopener" href="https://github.com/youwei828?tab=repositories">
+                    <i class="fa-solid fa-github fa-fw"></i>
+                </a>
+            </span>
+            
+            <span class="icon-link">
+                <a target="_blank" rel="noopener" href="https://github.com/youwei828?tab=repositories">
+                    <i class="fa-solid fa-qq fa-fw"></i>
+                </a>
+            </span>
+            
+            <span class="icon-link">
+                <a target="_blank" rel="noopener" href="https://github.com/youwei828?tab=repositories">
+                    <i class="fa-solid fa-weixin fa-fw"></i>
+                </a>
+            </span>
             
         </div>
         <div class="friend-links">
@@ -325,15 +299,21 @@
 <footer id="footer">
     <div class="footer-wrap">
         <div>
-            © 20xx - 2022 Hexo
+            © 2022 - 2022 MingYue&#39;blog
             <span class="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
-            @John Doe
+            @Ming yue
         </div>
         <div></div>
         <div>Based on the <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo Engine</a> & <a
                 target="_blank" rel="noopener" href="https://github.com/argvchs/hexo-theme-particlex">ParticleX Theme</a></div>
+        
+        <div>
+            备案号：<a target="_blank" rel="noopener" href="http://beian.miit.gov.cn/">
+                豫ICP备199999999号
+            </a>
+        </div>
         
     </div>
 </footer>

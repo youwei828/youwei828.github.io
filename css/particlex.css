@@ -200,7 +200,7 @@
 }
 body {
     width: 100%;
-    background: #f6f8fa;
+    background: rgba(199, 224, 244, 0.8) ;   
     color: #000000d9;
     font-family: "Poppins", "Noto Sans SC", sans-serif;
     font-size: 14px;
